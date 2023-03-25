@@ -3,7 +3,7 @@ Soil Moisture Prediction Model
 This script performs data cleaning and machine learning operations on two datasets from user1 and user2, and merges them into a new dataset. The merged dataset is then cleaned and preprocessed for use in a multiple linear regression model. The script calculates the Root Mean Squared Error (RMSE) between the predicted and actual values of the test set.
 
 Dependencies:
-*[Python 3.0 or higher]
+-Python 3.0 or higher
 *pandas
 *numpy
 *matplotlib
