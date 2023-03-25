@@ -16,7 +16,7 @@ user1_data.csv: Data from user1
 user2_data.csv: Data from user2
 
 
-Data Operations
+// Data Operations
 The first part of the script involves loading and cleaning the data. Two CSV files, 'user1_data.csv' and 'user2_data.csv', are loaded into two data frames, df1 and df2, respectively. The 'timestamp' column in both data frames is converted to datetime format using the pd.to_datetime() function. The original 'ttime' columns are then dropped, and the data frames are resampled to a common time interval of 5 minutes using the resample() function. The two data frames are then merged based on the timestamp column using the merge() function, and the resulting data frame is saved to a new CSV file named 'new_data.csv'.
 
 Data Cleaning
