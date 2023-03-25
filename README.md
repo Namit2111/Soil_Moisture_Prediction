@@ -12,8 +12,8 @@ This script performs data cleaning and machine learning operations on two datase
 
 # Data Files
 The script assumes that the following files are present in the working directory:
-user1_data.csv: Data from user1
-user2_data.csv: Data from user2
+1. user1_data.csv: Data from user1
+2. user2_data.csv: Data from user2
 
 
 # Data Operations
